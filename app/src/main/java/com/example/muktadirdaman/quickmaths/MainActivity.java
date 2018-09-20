@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
 
 
         startButton = (Button)findViewById(R.id.startButton);
-        Button highScore = (Button)findViewById(R.id.highS);
     }
 
     public void start(View view){
@@ -46,10 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void showHigh(View view){
-        Intent intent = new Intent(getApplicationContext(), HighScore.class);
-        startActivity(intent);
-    }
+
 
 
 
